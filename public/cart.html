@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="shop.js"></script>
+  <script src="cart.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="cart.css">
+  <title></title>
+</head>
+<body>
+  <nav class="navbar navbar-inverse" id="header1" style="background-color:#232f3e; height:50px;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <h2>ONLINE SHOP</h2>
+      </div>
+
+    </div>
+  </nav>
+
+
+
+  <div class="wrap cf">
+    <h1 class="projTitle">Your Shopping Cart</h1>
+    <div class="heading cf" style="display:flex;justify-content:space-between;">
+      <h1>My Cart</h1>
+      <button id="showshop" class="btn btn-danger" style="right:0px;"><i class="far fa-hand-point-left"></i>continue Shopping</i></button>
+    </div>
+    <div class="cart">
+    <ul class="cartWrap" id="cart_detail">
+    </ul>
+    <div class="promoCode"><label for="promo">Have A Promo Code?</label><input type="text" name="promo" placholder="Enter Code" />
+      <a href="#" class="btn"></a></div>
+
+      <div class="subtotal cf">
+        <ul>
+          <li class="totalRow"><span class="label">Total</span><span class="value" id="totalPrice">0.0</span></li>
+
+          <li class="totalRow"><a href="./index.html" class="btn continue">Checkout</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+
+</html>
